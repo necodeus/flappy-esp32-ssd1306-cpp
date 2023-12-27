@@ -7,7 +7,7 @@
 #include "credentials.h"
 
 #define SCREEN_WIDTH 128
-#define SCREEN_HEIGHT 64
+#define SCREEN_HEIGHT 128
 
 SSD1306Wire display(0x3C, SDA, SCL);
 
