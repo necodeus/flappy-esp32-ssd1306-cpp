@@ -1,20 +1,13 @@
 #include <Wire.h>
 #include "SSD1306Wire.h"
 
-#define LOGIN ""
-#define PASSWORD ""
-
-#include "credentials.h"
-
 #define SCREEN_WIDTH 128
-#define SCREEN_HEIGHT 128
+#define SCREEN_HEIGHT 64
 
 SSD1306Wire display(0x3C, SDA, SCL);
 
 int points = 0;
 int velocity = 2;
-
-int hello = 0;
 
 class Bird
 {
